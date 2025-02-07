@@ -53,8 +53,8 @@ a:focus {
 
 .banner {
     height: 700px;
-    background: url(/assets/images/photo.jpg) right/50%,
-    url(/assets/images/phone.jpg)center/cover;
+    background: url(../images/photo.jpg) right/50%,
+    url(../images/phone.jpg)center/cover;
     background-repeat: no-repeat;
     margin-bottom: 120px;
 }
@@ -80,7 +80,7 @@ a:focus {
 }
 
 .title::before {
-    content: url(/assets/images/&.png);
+    content: url(../images/&.png);
     position: absolute;
     left: 430px;
     top: -10px;
@@ -154,7 +154,7 @@ a:focus {
 
 
 .product::before {
-    content: url(/assets/images/pottery.png);
+    content: url(../images/pottery.png);
     width: 250px;
     height: 509px;
     position: absolute;
@@ -162,7 +162,7 @@ a:focus {
 }
 
 .product-ceramic::before{
-    content: url(/assets/images/ceramic.png);
+    content: url(../images/ceramic.png);
     width: 350px;
     height: 417px;
     position: absolute;
@@ -224,7 +224,7 @@ a:focus {
 
 .fon {
     height: 471px;
-    background: url(/assets/images/image-plates.png) center/cover;
+    background: url(../images/image-plates.png) center/cover;
     background-repeat: no-repeat;
     margin-bottom: 122px;
   }
